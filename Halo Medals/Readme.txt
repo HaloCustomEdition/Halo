@@ -1,0 +1,1 @@
+Copy zip files to C:\Users\doge\Documents\My Games\Halo CE\hac\packs
