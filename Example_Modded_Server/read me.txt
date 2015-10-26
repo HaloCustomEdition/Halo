@@ -1,0 +1,16 @@
+Full modded server with SAPP
+
+Installation:
+Don't forget to make backup from your original files!
+
+Halo CE only!
+
+Copy the files from the "Halo CE" folder to the Halo CE main folder, they are usually in the "Program Files" or "Program Files(x86)" folder.
+Copy the "My Games" folder to your Documents folder.
+You can customise your server by editing the init.txt and other files.
+Now start your server and Have Fun. ^^
+
+by: sehé°°
+xhalo.tk
+
+Xfire: lgbalazs

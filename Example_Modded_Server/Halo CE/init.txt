@@ -1,0 +1,7 @@
+sv_name "MODDED"
+sv_motd motd.txt
+sv_timelimit 30
+sv_tk_ban 0
+sv_mapcycle_timeout 5
+load
+mapcycle_begin

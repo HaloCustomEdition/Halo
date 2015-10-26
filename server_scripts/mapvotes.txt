@@ -1,0 +1,4 @@
+bloodgulch:Slayer:Bloodgulch - Slayer:0:16
+hangemhigh:Clasic Slayer:Hang 'em High - Classic Slayer:8:12
+dangercanyon:CTF:Danger Canyon - CTF:8:16
+carousel:CBCTF:RatRace CBCTF:0:12

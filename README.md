@@ -5,12 +5,12 @@
 * **server_scripts** - Lua scripts and sever configs.
 * **sapp_ce** - Latest sapp server release.
 * **Universal_UI_Version_1.1** - Latest release of the popular UI.
-* **Halo Custom Edition 1.0.10.exe** - Halo version 1.10 with HAC 2.
+* **Halo Custom Edition 1.0.10.zip** - Halo version 1.10 with HAC 2.
 * **documentations** - Good documentations for Halo CE.
 
 # Halo client
 
-Run the `Halo Custom Edition 1.0.10.exe` on your computer and extract the Halo installation as `Halo Custom Edition v110`.
+Extract the `Halo Custom Edition 1.0.10.zip` on your computer.
 
 ### medals, maps, and ui
 
