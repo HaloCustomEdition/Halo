@@ -1,4 +1,5 @@
 # [>Download Halo<](http://54.171.67.203/Halo.zip)
+Make sure to use the download link above, other links on this wont' download the full halo installation.
 
 The zip file includes these files and folders:
 
