@@ -1,4 +1,6 @@
-# Relevant files and folders
+# [Download Halo](http://54.171.67.203/Halo.zip)
+
+The zip file includes these files and folders:
 
 * **Example_Modded_Server** - Basic server setup.
 * **Halo Medals** - Halo client medals.
@@ -85,5 +87,5 @@ Add the first user as admin with password halo and admin privileges level 4.
 
 # Source
 
-http://xhalo.tk/
+http://xhalo.tk/  
 http://opencarnage.net/index.php?/forum/50-halo-server-scripts/
