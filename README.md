@@ -1,6 +1,6 @@
 # Halo Custom Edition
 
-[![](https://janikvonrotz.ch/wp-content/uploads/2015/10/Halo-Download.png)](http://54.171.67.203/Halo.zip)
+[![**Download Halo.zip**](https://janikvonrotz.ch/wp-content/uploads/2015/10/Halo-Download.png)](http://54.171.67.203/Halo.zip)
 
 Make sure to use the download link above, other links on this site won't download the full halo installation.
 
