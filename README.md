@@ -42,6 +42,12 @@ Open the console with `§`.
 
 In the console type `optic load haloreach` and `custom chat 1`.
 
+### troubleshooting
+
+**CD key error** - If you play Halo via LAN make sure to install a CD key by running the install batch.
+
+    Halo Custom Edition v110\HALO CE CD KEYS\Install_Uninstall.bat
+
 # Halo server
 
 Install the Halo client.
@@ -54,7 +60,9 @@ Finally copy the content of `sapp_ce\` to `Halo Custom Edition v110`.
 
 Run the server with `haloceded.exe`.
 
-If you run Halo client and server on the same machine make sure to use a different client port with the Halo client.
+### troubleshooting
+
+**Halo client and server on the same machine** - If you run Halo client and server on the same machine make sure to use a different client port with the Halo client.
 
 ## mods and more
 
@@ -68,8 +76,14 @@ Copy the file `server_scripts\mapvoting.txt` to `%USERPROFILE%\Documents\My Game
 
 Add `mapvote 1` to the sapp init file.
 
-### Zombie
-Zombie game type.
+### Sprinting
+Double tap the forward key to run faster. If you sprint for too long, you will become exhausted and run slower.
+
+Copy the file `server_scripts\Sprinting\sprinting.lua` to `%USERPROFILE%\Documents\My Games\Halo CE\sapp\lua\`.
+
+Add this line to the sapp init file:
+
+    lua_load sprinting
 
 ### Combo Messages
 This script does is the same thing that an events kill spree messages would do but, it sends it to the console instead and you can choose the alignment of spree or combo message that can be said.
@@ -79,9 +93,6 @@ Copy the script file `server_scripts\Combo Messages\combo_messages.lua` to `%USE
 Add this line to the sapp init file:
 
     lua_load combo_messages
-
-### Gun Game
-Based on the Counter Strike game called Gun Game.
 
 ## server administration
 
