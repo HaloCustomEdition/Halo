@@ -1,4 +1,4 @@
-# Halo Custom Editiion
+# Halo Custom Edition
 
 [![](https://janikvonrotz.ch/wp-content/uploads/2015/10/Halo-Download.png)](http://54.171.67.203/Halo.zip)
 
