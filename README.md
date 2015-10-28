@@ -89,6 +89,39 @@ Add the first user as admin with password halo and admin privileges level 4.
 
     admin add 1 "halo" 4
 
+# Build
+
+The Halo download package is build every 24 hours.
+
+To make build on your own follow the steps below:
+
+First install these programms:
+
+* zip
+* git-lfs
+
+Clone the Halo repository.
+
+    cd /usr/local/src/
+    sudo git clone https://github.com/HaloCustomEdition/Halo.git
+
+Edit the file.
+
+    sudo vi /etc/cron.daily/halo-build.sh
+
+And add these lines.
+
+    #!/bin/sh
+
+    sudo git -C /usr/local/src/Halo pull
+    sudo zip -r /var/www/<domain>/Halo.zip /usr/local/src/Halo
+
+And make it executable
+
+    sudo chmod +x /etc/cron.daily/halo-build.sh
+
+From now on your server updates the Halo repository and creates a new zip file daily.
+
 # Source
 
 http://xhalo.tk/  
