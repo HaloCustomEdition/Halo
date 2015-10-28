@@ -114,7 +114,7 @@ And add these lines.
     #!/bin/sh
 
     sudo git -C /usr/local/src/Halo pull
-    sudo zip -r /var/www/<domain>/Halo.zip /usr/local/src/Halo
+    sudo zip -FSr /var/www/<domain>/Halo.zip /usr/local/src/Halo
 
 And make it executable
 
