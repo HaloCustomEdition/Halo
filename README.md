@@ -135,10 +135,13 @@ From now on your server updates the Halo repository and creates a new zip file d
 
 ### github Pages
 
-https://gist.github.com/domenic/ec8b0fc8ab45f39403dd  
-http://www.spritecloud.com/2011/04/complete-setup-guide-for-ruby-cucumber-and-watir-or-selenium-on-windows/
+The Halo github page is update with Travis CI.
+
+[![Build Status](https://travis-ci.org/HaloCustomEdition/Halo.svg)](https://travis-ci.org/HaloCustomEdition/Halo)
 
 # Source
 
 http://xhalo.tk/  
-http://opencarnage.net/index.php?/forum/50-halo-server-scripts/
+http://opencarnage.net/index.php?/forum/50-halo-server-scripts/  
+https://gist.github.com/domenic/ec8b0fc8ab45f39403dd  
+http://www.spritecloud.com/2015/04/complete-setup-guide-for-ruby-cucumber-and-watir-on-windows/
