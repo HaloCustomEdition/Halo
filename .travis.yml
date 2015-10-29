@@ -8,6 +8,3 @@ KD4u3/vRjC0ayR6mCuW1WyC78+K4o024H7VbQexBpypy1RSz4qQE/BP0d8Hqnw/my2PRypjmh1msQyhd
 QceOTeKBRMy1jj9fXJu7hrjeawNSAixXbNDldMUGOZA/dy8GEkCfa8FP/0puPkgluN5/HDaBwe0sVEeaPhYCKPwhCiwu1Au6j00LA7fihPO4md+iJkgMmmHs
 3jPNQv1H6BzOjyOPIe71zm/pi4Ug8nS4VycNoAlz+kFA6vDltVdAglJw3XY7CBlOXrfivrEzrRYGTU3zMMGOgdS5WaaYwGSNwxAC5pLJ2G9B0PdTJNhjYCH+
 j4c7IhJ9XTEi0sPPHeNrrs3agg9kdPPL6pAQ61Ipj51rGJOhGd/BjXIM7Wrvob9f9yur6tX4VSy+dyfFLFh4k5oZtfGR6E="
-before_script:
-  npm install -g gulp
-  npm install
