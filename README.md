@@ -135,7 +135,7 @@ From now on your server updates the Halo repository and creates a new zip file d
 
 ### github pages
 
-The Halo github page is update with Travis CI.
+The Halo github page is updated with Travis CI.
 
 [![Build Status](https://travis-ci.org/HaloCustomEdition/Halo.svg)](https://travis-ci.org/HaloCustomEdition/Halo)
 
