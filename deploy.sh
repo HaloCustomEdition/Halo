@@ -6,9 +6,7 @@ rm -rf out || exit 0;
 mkdir out;
 
 # run our compile script, discussed above
-npm build
-npm install markdown-to-html -g
-github-markdown README.md > ./out/index.html
+gulp
 
 # go to the out directory and create a *new* Git repo
 cd out

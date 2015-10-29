@@ -16,7 +16,10 @@
     "url": "https://github.com/HaloCustomEdition/Halo/issues"
   },
   "homepage": "https://github.com/HaloCustomEdition/Halo#readme",
-  "dependencies": {
-    "markdown-to-html": "0.0.11"
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-markdown": "^1.1.0",
+    "gulp-rename": "^1.2.2"
   }
 }
