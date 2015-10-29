@@ -124,8 +124,10 @@ And add these lines.
 
     #!/bin/sh
 
-    sudo git -C /usr/local/src/Halo pull
-    sudo zip -FSr /var/www/<domain>/Halo.zip /usr/local/src/Halo -x *.git*
+    sudo git -C /usr/local/src//Halo pull
+    cd /usr/local/src/Halo
+    sudo zip -FSr /var/www/54.171.67.203/Halo.zip . -x ".travis.yml" "*.git*" "gulpfile.js" "deploy.sh" "package.json" "*out*" "*node_modules*"
+
 
 And make it executable
 
