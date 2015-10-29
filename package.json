@@ -19,7 +19,9 @@
   "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.0",
+    "gulp-cheerio": "^0.6.2",
     "gulp-markdown": "^1.1.0",
-    "gulp-rename": "^1.2.2"
+    "gulp-rename": "^1.2.2",
+    "gulp-wrapper": "^1.0.0"
   }
 }
