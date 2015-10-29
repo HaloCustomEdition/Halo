@@ -1,0 +1,22 @@
+{
+  "name": "halo",
+  "version": "1.0.0",
+  "description": "[![**Download Halo.zip**](https://janikvonrotz.ch/wp-content/uploads/2015/10/Halo-Download.png)](http://54.171.67.203/Halo.zip)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaloCustomEdition/Halo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaloCustomEdition/Halo/issues"
+  },
+  "homepage": "https://github.com/HaloCustomEdition/Halo#readme",
+  "dependencies": {
+    "markdown-to-html": "0.0.11"
+  }
+}

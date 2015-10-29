@@ -133,6 +133,11 @@ And make it executable
 
 From now on your server updates the Halo repository and creates a new zip file daily.
 
+### github Pages
+
+https://gist.github.com/domenic/ec8b0fc8ab45f39403dd  
+http://www.spritecloud.com/2011/04/complete-setup-guide-for-ruby-cucumber-and-watir-or-selenium-on-windows/
+
 # Source
 
 http://xhalo.tk/  
