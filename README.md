@@ -133,7 +133,7 @@ And make it executable
 
 From now on your server updates the Halo repository and creates a new zip file daily.
 
-### github Pages
+### github pages
 
 The Halo github page is update with Travis CI.
 
