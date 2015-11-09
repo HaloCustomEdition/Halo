@@ -46,6 +46,8 @@ In the console type `optic load haloreach` and `custom chat 1`.
 
     Halo Custom Edition v110\HALO CE CD KEYS\Install_Uninstall.bat
 
+If you still experience this error, delete the `%USERPROFILE%\Documents\My Games\Halo CE\` folder.
+
 **Invalid network adress** - This error occurs when starting halo without internet access. Simply ignore this error and click on the running Halo in the taskbar.
 
 # Halo server
