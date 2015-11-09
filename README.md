@@ -9,20 +9,18 @@ The zip file includes these files and folders:
 * **server_scripts** - Lua scripts and sever configs.
 * **sapp_ce** - Latest sapp server release.
 * **Universal_UI_Version_1.1** - Latest release of the popular UI.
-* **Halo Custom Edition 1.0.10.zip** - Halo version 1.10 with HAC 2.
+* **Halo Custom Edition.zip** - Halo version 1.10 with HAC 2 and Universal UI.
 * **documentations** - Good documentations for Halo CE.
 
 # Halo client
 
-Extract the `Halo Custom Edition 1.0.10.zip` on your computer.
+Extract the `Halo Custom Edition.zip` on your computer.
 
 ### medals, maps, and ui
 
-Run `Halo Custom Edition v110\redist\msxmlenu.msi`
+Run `Halo Custom Edition v110\redist\msxmlenu.msi`.
 
-Copy the file `Universal_UI_Version_1.1\UI.map` to `Halo Custom Edition v110\maps\`.
-
-Copy the maps files from `custom_maps\` to `Halo Custom Edition v110\maps\`.
+Copy the custom maps files from your computer to `Halo Custom Edition\maps\`.
 
 Create a shortcut on your desktop with this link
 
