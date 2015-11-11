@@ -1,0 +1,90 @@
+<html><head><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css"></head><body><div class="container"><p><img class="img-responsive" src="https://raw.githubusercontent.com/HaloCustomEdition/Halo/master/page/halo_banner.jpg" alt="halo banner"></p><a href="https://github.com/HaloCustomEdition/Halo"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/567c3a48d796e2fc06ea80409cc9dd82bf714434/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png"></a>
+<h1 id="halo-custom-edition">Halo Custom Edition</h1>
+<p><a href="http://54.171.67.203/Halo.zip"><img src="https://raw.githubusercontent.com/HaloCustomEdition/Halo/master/page/Halo-Download.png" alt="**Download Halo.zip**"></a></p>
+<p>The zip file includes these files and folders:</p>
+<ul>
+<li><strong>Example_Modded_Server</strong> - Basic server setup.</li>
+<li><strong>Halo Medals</strong> - Halo client medals.</li>
+<li><strong>server_scripts</strong> - Lua scripts and sever configs.</li>
+<li><strong>sapp_ce</strong> - Latest sapp server release.</li>
+<li><strong>Universal_UI_Version_1.1</strong> - Latest release of the popular UI.</li>
+<li><strong>Halo Custom Edition.zip</strong> - Halo version 1.10 with HAC 2 and Universal UI.</li>
+<li><strong>documentations</strong> - Good documentations for Halo CE.</li>
+</ul>
+<h1 id="halo-client">Halo client</h1>
+<p>Extract the <code>Halo Custom Edition.zip</code> on your computer.</p>
+<h3 id="medals-maps-and-ui">medals, maps, and ui</h3>
+<p>Run <code>Halo Custom Edition v110\redist\msxmlenu.msi</code>.</p>
+<p>Copy the custom maps files from your computer to <code>Halo Custom Edition\maps\</code>.</p>
+<p>Create a shortcut on your desktop with this link</p>
+<pre><code>&quot;C:\Halo Custom Edition v110\haloce.exe&quot; -vidmode 1920,1080,60 -console
+</code></pre><p>Now run halo with the shortcut and create a game profile.</p>
+<p>Then close halo and follow these next steps.</p>
+<p>Copy the zip files from <code>Halo Medals</code> to <code>%USERPROFILE%\Documents\My Games\Halo CE\hac\packs\</code> (Create the folder packs if necessary).</p>
+<p>Now start halo again.</p>
+<p>Open the console with <code>&#xA7;</code>.</p>
+<p>In the console type <code>optic load haloreach</code> and <code>custom chat 1</code>.</p>
+<h3 id="troubleshooting">troubleshooting</h3>
+<p><strong>CD key error</strong> - If you play Halo via LAN make sure to install a CD key by running the install batch.</p>
+<pre><code>Halo Custom Edition v110\HALO CE CD KEYS\Install_Uninstall.bat
+</code></pre><p>If you still experience this error, delete the <code>%USERPROFILE%\Documents\My Games\Halo CE\</code> folder.</p>
+<p><strong>Invalid network adress</strong> - This error occurs when starting halo without internet access. Simply ignore this error and click on the running Halo in the taskbar.</p>
+<h1 id="halo-server">Halo server</h1>
+<p>Install the Halo client.</p>
+<p>Copy the folder content of <code>Example_Modded_Server\My Games\Halo CE\</code> to <code>`%USERPROFILE%\Documents\My Games\Halo CE\</code>.</p>
+<p>Copy the folder content of <code>Example_Modded_Server\Halo CE\</code> to <code>Halo Custom Edition v110</code>.</p>
+<p>Finally copy the content of <code>sapp_ce\</code> to <code>Halo Custom Edition v110</code>.</p>
+<p>Run the server with <code>haloceded.exe</code>.</p>
+<h3 id="troubleshooting">troubleshooting</h3>
+<p><strong>Halo client and server on the same machine</strong> - If you run Halo client and server on the same machine make sure to use a different client port with the Halo client.</p>
+<h2 id="mods-and-more">mods and more</h2>
+<p>Remember:</p>
+<ul>
+<li>The sapp init file is located here <code>%USERPROFILE%\Documents\My Games\Halo CE\sapp\init.txt</code>.</li>
+<li>To enable Lua scripting make sure the <code>lua 1</code> option is in the sapp init file.</li>
+</ul>
+<h3 id="map-voting">map voting</h3>
+<p>Enable map voting.
+Copy the file <code>server_scripts\mapvoting.txt</code> to <code>%USERPROFILE%\Documents\My Games\Halo CE\sapp\</code>.</p>
+<p>Add <code>mapvote 1</code> to the sapp init file.</p>
+<h3 id="sprinting">Sprinting</h3>
+<p>Double tap the forward key to run faster. If you sprint for too long, you will become exhausted and run slower.</p>
+<p>Copy the file <code>server_scripts\Sprinting\sprinting.lua</code> to <code>%USERPROFILE%\Documents\My Games\Halo CE\sapp\lua\</code>.</p>
+<p>Add this line to the sapp init file:</p>
+<pre><code>lua_load sprinting
+</code></pre><h3 id="combo-messages">Combo Messages</h3>
+<p>This script does is the same thing that an events kill spree messages would do but, it sends it to the console instead and you can choose the alignment of spree or combo message that can be said.</p>
+<p>Copy the script file <code>server_scripts\Combo Messages\combo_messages.lua</code> to <code>%USERPROFILE%\Documents\My Games\Halo CE\sapp\lua\</code>.</p>
+<p>Add this line to the sapp init file:</p>
+<pre><code>lua_load combo_messages
+</code></pre><h2 id="server-administration">server administration</h2>
+<p>Add the first user as admin with password halo and admin privileges level 4.</p>
+<pre><code>admin add 1 &quot;halo&quot; 4
+</code></pre><h1 id="build">Build</h1>
+<p>The Halo download package is build every 24 hours.</p>
+<p>To make build on your own follow the steps below:</p>
+<p>First install these programms:</p>
+<ul>
+<li>zip</li>
+<li>git-lfs</li>
+</ul>
+<p>Clone the Halo repository.</p>
+<pre><code>cd /usr/local/src/
+sudo git clone https://github.com/HaloCustomEdition/Halo.git
+</code></pre><p>Edit the file.</p>
+<pre><code>sudo vi /etc/cron.daily/halo-build.sh
+</code></pre><p>And add these lines.</p>
+<pre><code>#!/bin/sh
+
+sudo git -C /usr/local/src//Halo pull
+cd /usr/local/src/Halo
+sudo zip -FSr /var/www/54.171.67.203/Halo.zip . -x &quot;.travis.yml&quot; &quot;*.git*&quot; &quot;gulpfile.js&quot; &quot;deploy.sh&quot; &quot;package.json&quot; &quot;*out*&quot; &quot;*node_modules*&quot; &quot;*page*&quot;
+</code></pre><p>And make it executable</p>
+<pre><code>sudo chmod +x /etc/cron.daily/halo-build.sh
+</code></pre><p>From now on your server updates the Halo repository and creates a new zip file daily.</p>
+<h3 id="github-pages">github pages</h3>
+<p>The Halo github page is updated with Travis CI.</p>
+<p><a href="https://travis-ci.org/HaloCustomEdition/Halo"><img src="https://travis-ci.org/HaloCustomEdition/Halo.svg" alt="Build Status"></a></p>
+<h1 id="source">Source</h1>
+<p><a href="http://xhalo.tk/">http://xhalo.tk/</a><br><a href="http://opencarnage.net/index.php?/forum/50-halo-server-scripts/">http://opencarnage.net/index.php?/forum/50-halo-server-scripts/</a><br><a href="https://gist.github.com/domenic/ec8b0fc8ab45f39403dd">https://gist.github.com/domenic/ec8b0fc8ab45f39403dd</a><br><a href="http://www.spritecloud.com/2015/04/complete-setup-guide-for-ruby-cucumber-and-watir-on-windows/">http://www.spritecloud.com/2015/04/complete-setup-guide-for-ruby-cucumber-and-watir-on-windows/</a></p>
+</div></body></html>
