@@ -1,0 +1,1 @@
+Place the sapp.dll and Strings.dll files within the same directory as haloceded.exe
